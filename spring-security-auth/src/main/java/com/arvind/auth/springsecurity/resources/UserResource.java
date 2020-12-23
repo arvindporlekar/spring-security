@@ -18,6 +18,7 @@ public class UserResource {
 
     @GetMapping("/users")
     public Principal getUserSecured(Principal principal) {
+
         return principal;
     }
 }
