@@ -4,12 +4,13 @@ spring security with google authentications
 
 # Use swagger for published API
 
-Swagger UI = 
+Swagger UI 
+- https://github.com/arvindporlekar/spring-security/swagger-ui.html
 
-1 . http://localhost:9000/spring-security-auth/
-	This API will print message as = all user info is available with unsecured way.
-2. http://localhost:9000/spring-security-auth/users
-	This API will retuen UserPrincipal including user details
+- http://localhost:9000/spring-security-auth/
+	- This API will print message as = all user info is available with unsecured way.
+- http://localhost:9000/spring-security-auth/users
+	- This API will retuen UserPrincipal including user details
 
 # Pending
 - store user details in MySql DB
@@ -18,3 +19,5 @@ Swagger UI =
 - use authentication with 
 	- facebook
 	- git hub
+
+# Update google client id and client secret to get authenticated. 
